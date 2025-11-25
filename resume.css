@@ -1,0 +1,31 @@
+#introduction {
+    border: 0.2rem solid beige;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+#education {
+    border: 0.2rem solid beige;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+#skills {
+    border: 0.2rem solid beige;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+#interests {
+    border: 0.2rem solid beige;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+h1 {
+    text-align: center;
+}
+
+body {
+    font-family: "MS Gothic";
+}

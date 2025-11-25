@@ -1,0 +1,45 @@
+#cod {
+    border: 0.3rem solid;
+}
+
+#lib {
+    border: 0.3rem solid;
+}
+
+#pc {
+    border: 0.3rem solid;
+}
+
+#home {
+    border: 0.2rem solid beige;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+#call-of-duty-synopsis {
+    border: 0.2rem solid beige;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+#reading\! {
+    border: 0.2rem solid beige;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+#library {
+    border: 0.2rem solid beige;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+#docking {
+    border: 0.2rem solid beige;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+body {
+    font-family: "MS Gothic";
+}
