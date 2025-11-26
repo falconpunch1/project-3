@@ -1,48 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+  <head>
     <meta charset="UTF-8">
-    <title>FLOSS</title>
+    <title>
+      FLOSS
+    </title>
     <link rel="icon" href="images/star.png" type="image/png">
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <link rel="stylesheet" type="text/css" href="css/index.css">
-    <script src="js/google_maps.js" defer></script>
-</head>
+    <script src="js/google_maps.js" defer>
+    </script>
+  </head>
 
-<body>
-
-<div id="page-wrapper">
-
-
-    <header id="header">
+  <body>
+    <div id="page-wrapper">
+      <header id="header">
         <nav>
-            <ul>
-                <!-- Navigation is the same on all three html files -->
-                <li><a href="index.html">Homepage</a></li>
-                <li><a href="resume.html">Resume</a></li>
-                <li><a href="floss.html">FLOSS</a></li>
-                <li><a href="maps.html">Maps</a></li>
-            </ul>
+          <ul>
+            <!-- Navigation is the same on all three html files -->
+            <li>
+              <a href="index.html">
+                Homepage
+              </a>
+            </li>
+            <li>
+              <a href="resume.html">
+                Resume
+              </a>
+            </li>
+            <li>
+              <a href="floss.html">
+                FLOSS
+              </a>
+            </li>
+            <li>
+              <a href="maps.html">
+                Maps
+              </a>
+            </li>
+          </ul>
         </nav>
-    </header>
-
-    <main id="content-wrapper">
-
+      </header>
+      <main id="content-wrapper">
         <div id="main-content">
-            <h1>Map of an Interesting Relic of Days Gone Past</h1>
+          <h1>
+            Map of an Interesting Relic of Days Gone Past
+          </h1>
+          <p>
+            This place used to be called Kowloon Walled City. It's a place that was,
+            at one point in time, a completely unregulated, ungovernable city in the
+            middle of Hong Kong. Unfortunately, (or fortunately, however you see it)
+            this city was demolished after the Chinese government had enough of this
+            legal limbo, and bulldozed the city.
+          </p>
+          <p>
+            The only things left from The Walled City is the building the whole city
+            was built around, the people who used to reside in the city, and a book
+            documenting the innings and outings of people as the Chinese government
+            started to forcefully move people out of there.
+          </p>
         </div>
-
-        <div id="map" style="width: 100%; height: 400px;"></div>
-
-    </main>
-    <script src="https://maps.googleapis.com/maps/api/js?AIzaSyBM1F-BpX660SBK3-Vw9O9f7AEvTAIH8rI&callback=initMap" async
-            defer></script>
-    <script src="js/google_maps.js" defer></script>
-</div>
-
-</body>
+        <div id="map" style="width: 100%; height: 400px;">
+        </div>
+      </main>
+      <div id="questions">
+        <button id="button">
+          Questions? Concerns? Click me!
+        </button>
+      </div>
+      <script src="https://maps.googleapis.com/maps/api/js?AIzaSyBM1F-BpX660SBK3-Vw9O9f7AEvTAIH8rI&callback=initMap"
+      async defer>
+      </script>
+    </div>
+  </body>
 
 </html>
-
